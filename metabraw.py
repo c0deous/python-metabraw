@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 
+### MetaBRAW
+# by Jesse Wallace (c0deous)
+# Final Effect Studios
+#
+# Parses the output of the Blackmagic supplied ExtractMetadata example into a python friendly library
+# This can definitely be done better (using the actual SDK) but I'm a coward and don't want to deal with C++
+# If you feel that you can fix this in ANY way please su
+
 import subprocess, os, sys, platform
 from pathlib import Path, PosixPath
 
