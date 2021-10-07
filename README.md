@@ -20,14 +20,14 @@ All platforms should work but I've only tested it on Mac at the moment.
 
 ### Methods
 
-* metadata(<BRAW File Path>, brawsdk_path=<optional>) - root class
-  * **.clip**
+* ```metadata(<BRAW File Path>, brawsdk_path=<optional>)``` - root class
+  * ```.clip```
     * returns a dictionary of general metadata (camera info, lens type)
-  * **.firstframe**
+  * ```.firstframe```
     * returns a dictionary of clip specific metadata (ISO, focal length, white balance, etc)
-  * **.list_clip_keys()**
+  * ```.list_clip_keys()```
     * lists all clip metadata dictionary keys
-  * **.list_firstframe_keys()**
+  * ```.list_firstframe_keys()```
     * lists all firstframe metadata dictionary keys
 
 ### Other Info
